@@ -1,4 +1,3 @@
-# Fantasy-Safe
 
 ## Overview
 The app is aimed at providing a simple and easy-to-use interface for counting and tracking numbers. The app is developed using Java programming language and Android framework. It uses two fragments, one for displaying the current counter value and another for controlling the counter value. The app also uses SQLite database to save the current counter value so that it can be retrieved the next time the app is opened.
