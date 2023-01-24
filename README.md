@@ -13,7 +13,7 @@ Overall the development process for the app was designed to be simple and effici
 
 ## Functionality
 
-###Fragments
+### Fragments
 In the app, there are two fragments used, one for displaying the current counter value and another for controlling the counter value. The first fragment, the CounterFragment, is responsible for displaying the current counter value to the user. It receives the counter value from the MainActivity class and updates the textview that displays the counter value. The CounterFragment also includes a method called "updateCounter" that updates the counter value displayed on the fragment.
 
 The second fragment, the ControlsFragment, is responsible for controlling the counter value. It includes a plus button, a minus button, a big win button, and a save button. The plus button increments the counter value by 1, the minus button decrements the counter value by 1, the big win button adds the value typed in the textbox to the counter, and the save button saves the current counter value to the SQLite database. The ControlsFragment communicates with the MainActivity class to perform these actions by calling methods in the MainActivity class.
